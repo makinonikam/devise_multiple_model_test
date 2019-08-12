@@ -1,0 +1,15 @@
+current directory: /Users/taro-kuma/Desktop/Git/devise_multiple_model_test/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.4/ext/bootsnap
+/Users/taro-kuma/.rbenv/versions/2.6.3/bin/ruby -I /Users/taro-kuma/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20190812-88847-18cfq21.rb extconf.rb
+creating Makefile
+
+current directory: /Users/taro-kuma/Desktop/Git/devise_multiple_model_test/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/taro-kuma/Desktop/Git/devise_multiple_model_test/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/taro-kuma/Desktop/Git/devise_multiple_model_test/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20190812-88847-1k5qiha/bootsnap

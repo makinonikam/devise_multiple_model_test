@@ -1,7 +1,10 @@
 class TopController < ApplicationController
-  def index
+  def toppage
   end
 
-  def show
+  def usr_index
+  end
+
+  def admin_index
   end
 end

@@ -11,7 +11,9 @@ Rails.application.routes.draw do
     registrations: 'users/registrations'
   }
 
-  get root to: 'top#index'
-  get 'top/show'
+  get root to: 'top#toppage'
+  get 'user_index' => 'top#user_index'
+  get 'admin_index' => 'top#admin_index'
+  get 'top/show' => 'top#show'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
