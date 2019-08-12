@@ -5,6 +5,8 @@ class ApplicationController < ActionController::Base
       user_index_path
     when Admin
       admin_index_path
+      when Advisor
+        advisor_index_path
     end
   end
 end
